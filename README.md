@@ -2,10 +2,10 @@
 
 # Introduction {#introduction}
 
-1. [Installation](http://elixir-lang.org/getting-started/introduction.html#installation)
-2. [Interactive mode](http://elixir-lang.org/getting-started/introduction.html#interactive-mode)
-3. [Running scripts](http://elixir-lang.org/getting-started/introduction.html#running-scripts)
-4. [Asking questions](http://elixir-lang.org/getting-started/introduction.html#asking-questions)
+1. [Installation](#installation)
+2. [Interactive mode](#interactive-mode)
+3. [Running scripts](#running-scripts)
+4. [Asking questions](#asking-questions)
 
 ยินดีต้อนรับ!
 
@@ -22,11 +22,9 @@
 
 ## Installation {#installation}
 
+ถ้าหากตอนนี้ คุณยังไม่มีคอมไพเลอร์ Elixir, ให้ไปดูตัวอย่างการลงได้ที่ [installation page](http://elixir-lang.org/install.html) ถ้าหากลงเสร็จเรียบร้อยแล้ว ลองรันคำสั่ง
 
-
-ถ้าหากตอนนี้ คุณยังไม่มีคอมไพเลอร์ Elixir, ให้ไปดูตัวอย่างการลงได้ที่ [installation page](http://elixir-lang.org/install.html) ถ้าหากลงเสร็จเรียบร้อยแล้ว ลองรันคำสั่ง 
-
-`elixir --version `ก็จะได้เลขเวอร์ชั่น ของคอมไพเลอร์ Elixir ออกมา
+`elixir --version`ก็จะได้เลขเวอร์ชั่น ของคอมไพเลอร์ Elixir ออกมา
 
 ## Interactive mode {#interactive-mode}
 
@@ -51,7 +49,6 @@ iex(2)
 >
  " world"
 "hello world"
-
 ```
 
 Please note that some details like version numbers may differ a bit in your session, that’s not important. From now on`iex`sessions will be stripped down to focus on the code. To exit`iex`press`Ctrl+C`twice.
@@ -78,7 +75,6 @@ Save it as`simple.exs`and execute it with`elixir`:
 $ 
 elixir simple.exs
 Hello world from Elixir
-
 ```
 
 Later on we will learn how to compile Elixir code \(in[Chapter 8](http://elixir-lang.org/getting-started/modules-and-functions.html)\) and how to use the Mix build tool \(in the[Mix & OTP guide](http://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)\). For now, let’s move on to[Chapter 2](http://elixir-lang.org/getting-started/basic-types.html).

@@ -28,11 +28,11 @@
 
 ## Interactive mode {#interactive-mode}
 
-When you install Elixir, you will have three new executables:`iex`,`elixir`and`elixirc`. If you compiled Elixir from source or are using a packaged version, you can find these inside the`bin`directory.
+เมื่อลง Elixir เสร็จแล้ว เราจะพบว่ามีคำสั่งใหม่ขึ้นมา 3 อันคือ iex, elixir, และ elixirc ถ้าคุณคอมไพล์ Elixir จากซอร์สโค้ด จะพบไฟล์ที่ถูกคอมไพล์แล้ว อยู่ในภายใต้ไดเรกทอรี่ bin
 
-For now, let’s start by running`iex`\(or`iex.bat`if you are on Windows\) which stands for Interactive Elixir. In interactive mode, we can type any Elixir expression and get its result. Let’s warm up with some basic expressions.
+สำหรับตอนนี้, เริ่มต้นโดยพิมพ์คำสั่ง iex \( หรือ iex.bat สำหรับคนที่ใช้วินโดว์\) เพื่อเข้าใช้ Interactive Elixir \( คล้ายๆกับการใช้ python shell \), เราสามารถที่จะพิมพ์โปรแกรมหรือคำสั่งของ Elixir แล้วได้ผลลัพธ์ได้เลยทันที ซึ่งทำให้เราสามารถเรียนภาษา Elixir จากช่องทางนี้ได้เช่นกัน
 
-Open up`iex`and type the following expressions:
+เปิด iex แล้วลองพิมพ์ข้อความ เหล่านี้ลงไป \(พิมพ์หลังเครื่องหมาย &gt;  เช่น &gt; 40 + 2  คือพิมพ์ 40 + 2 แล้วกด Enter \)
 
 ```
 Erlang/OTP 19 [erts-8.1] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]

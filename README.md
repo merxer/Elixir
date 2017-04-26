@@ -34,46 +34,41 @@
 
 เปิด iex แล้วลองพิมพ์ข้อความ เหล่านี้ลงไป \(พิมพ์หลังเครื่องหมาย &gt;  เช่น &gt; 40 + 2  คือพิมพ์ 40 + 2 แล้วกด Enter \)
 
-```
+```ruby
 Erlang/OTP 19 [erts-8.1] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
 
 Interactive Elixir (1.4.0) - press Ctrl+C to exit (type h() ENTER for help)
-iex(1)
->
- 40 + 2
+iex(1)>  40 + 2
 42
-iex(2)
->
- "hello" 
-<
->
- " world"
+iex(2)> "hello" <
+> " world"
 "hello world"
 ```
 
-Please note that some details like version numbers may differ a bit in your session, that’s not important. From now on`iex`sessions will be stripped down to focus on the code. To exit`iex`press`Ctrl+C`twice.
 
-It seems we are ready to go! We will use the interactive shell quite a lot in the next chapters to get a bit more familiar with the language constructs and basic types, starting in the next chapter.
 
-> Note: if you are on Windows, you can also try`iex.bat --werl`which may provide a better experience depending on which console you are using.
+ตรงเลขเวอร์ชั่น อาจจะแตกต่างกัน แต่ไม่มีความสำคัญอะไรนะคับ ตอนนี้ เราเน้นที่การเขียนโปรแกรมก่อน และวิธีการออกจาก Interactive Shell ทำได้โดยการพิมพ์ Ctrl + C สองครั้ง
+
+
+
+ตอนนี้ เราพร้อมกันแล้ว และในบทถัดๆไปเราจะใช้ interactive shell กันเยอะขึ้นมากในการเขียนโปรแกรมเริ่มต้น
+
+
+
+> บันทึก: ถ้าคุณใช้ Windows แนะนำให้พิมพ์คำสั่ง iex.bat --werl จะดีกว่าการใช้ iex.bat อย่างเดียว
 
 ## Running scripts {#running-scripts}
 
-After getting familiar with the basics of the language you may want to try writing simple programs. This can be accomplished by putting the following Elixir code into a file:
+เรามาลองสร้างโปรแกรมง่ายๆสักอัน โดยพิมพ์ข้อความเหล่านี้ลงในไฟล์
 
-```
-IO
-.
-puts
-"
-Hello world from Elixir"
+```ruby
+IO.puts "Hello world from Elixir"
 ```
 
-Save it as`simple.exs`and execute it with`elixir`:
+แล้วบันทึกไฟล์ในชื่อ simple.exs แล้วรันโดยใช้คำสั่ง elixir :
 
-```
-$ 
-elixir simple.exs
+```ruby
+$ elixir simple.exs
 Hello world from Elixir
 ```
 

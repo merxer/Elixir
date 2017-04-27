@@ -45,15 +45,9 @@ iex(2)> "hello" <
 "hello world"
 ```
 
-
-
 ตรงเลขเวอร์ชั่น อาจจะแตกต่างกัน แต่ไม่มีความสำคัญอะไรนะคับ ตอนนี้ เราเน้นที่การเขียนโปรแกรมก่อน และวิธีการออกจาก Interactive Shell ทำได้โดยการพิมพ์ Ctrl + C สองครั้ง
 
-
-
 ตอนนี้ เราพร้อมกันแล้ว และในบทถัดๆไปเราจะใช้ interactive shell กันเยอะขึ้นมากในการเขียนโปรแกรมเริ่มต้น
-
-
 
 > บันทึก: ถ้าคุณใช้ Windows แนะนำให้พิมพ์คำสั่ง iex.bat --werl จะดีกว่าการใช้ iex.bat อย่างเดียว
 
@@ -72,7 +66,7 @@ $ elixir simple.exs
 Hello world from Elixir
 ```
 
-Later on we will learn how to compile Elixir code \(in[Chapter 8](http://elixir-lang.org/getting-started/modules-and-functions.html)\) and how to use the Mix build tool \(in the[Mix & OTP guide](http://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)\). For now, let’s move on to[Chapter 2](http://elixir-lang.org/getting-started/basic-types.html).
+หลังจากนี้ เราจะได้เรียนรู้วิธีการคอมไพล์โปรแกรม Elixir \(ใน  [บทที่ 8](http://elixir-lang.org/getting-started/modules-and-functions.html)\) และการใช้คำสั่ง Mix \(ในบท[ Mix & OTP Guide](http://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html)\) อีกครั้ง สำหรับตอนนี้ ไปเรียนจาก [บทที่ 2 ](http://elixir-lang.org/getting-started/basic-types.html)ก่อนดีกว่า
 
 ## Asking questions {#asking-questions}
 

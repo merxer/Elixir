@@ -70,7 +70,7 @@ Hello world from Elixir
 
 ## Asking questions {#asking-questions}
 
-When going through this getting started guide, it is common to have questions, after all, that is part of the learning process! There are many places you could ask them to learn more about Elixir:
+ในขณะที่กำลังศึกษาภาษา Elixir ถ้าหากมีข้อสงสัย หลังจากการเรียนในแต่ละบท  ก็มีหลายๆที่ที่สามารถตั้งคำถามหรือเรียนรู้อะไรใหม่ๆที่เกี่ยวกับ Elixir ได้ ดังต่อไปนี้
 
 * [\#elixir-lang on freenode IRC](irc://irc.freenode.net/elixir-lang)
 * [Elixir on Slack](https://elixir-slackin.herokuapp.com/)

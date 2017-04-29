@@ -77,9 +77,9 @@ Hello world from Elixir
 * [Elixir Forum](http://elixirforum.com/)
 * [elixir tag on StackOverflow](https://stackoverflow.com/questions/tagged/elixir)
 
-When asking questions, remember these two tips:
+เมื่อต้องการจะถามคำควร ควรทำสองอย่างนี้:
 
-* Instead of asking “how to do X in Elixir”, ask “how to solve Y in Elixir”. In other words, don’t ask how to implement a particular solution, instead describe the problem at hand. Stating the problem gives more context and less bias for a correct answer.
+* แทนที่จะถามว่า "แก้ปัญหา X อย่างไรใน Elixir" หรือ "ขอวิธีแก้ปัญหา Y ใน Elixir" ไม่ควรถามแบบวิธีการเขียนโค้ดแก้ปัญหา แต่ควรอธิบายปัญหาที่ได้เจอ ยิ่งบอกปัญหาได้ละเอียด ก็จะมีข้อมูลให้คนช่วยตอบปัญหาได้มากขึ้น
 
 * In case things are not working as expected, please include as much information as you can in your report, for example: your Elixir version, the code snippet and the error message alongside the error stacktrace. Use sites like[Gist](https://gist.github.com/)to paste this information.
 

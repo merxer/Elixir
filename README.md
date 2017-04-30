@@ -81,7 +81,7 @@ Hello world from Elixir
 
 * แทนที่จะถามว่า "แก้ปัญหา X อย่างไรใน Elixir" หรือ "ขอวิธีแก้ปัญหา Y ใน Elixir" ไม่ควรถามแบบวิธีการเขียนโค้ดแก้ปัญหา แต่ควรอธิบายปัญหาที่ได้เจอ ยิ่งบอกปัญหาได้ละเอียด ก็จะมีข้อมูลให้คนช่วยตอบปัญหาได้มากขึ้น
 
-* In case things are not working as expected, please include as much information as you can in your report, for example: your Elixir version, the code snippet and the error message alongside the error stacktrace. Use sites like[Gist](https://gist.github.com/)to paste this information.
+* ในกรณีที่การทำงานไม่ได้ตามที่ต้องการ, รบกวนเตรียมข้อมูลให้เยอะที่สุด เช่นว่า Elixir เวอร์ชันอะไร ข้อความผิดพลาดที่แสดงออกมา หรือ error จาก stacktrace \(ตอนเกิดข้อผิดพลาด จะมี error ยาวๆ\) แล้วใช้ [gist](https://gist.github.com) ในการโพสข้อมูลเหล่านี้
 
 
 

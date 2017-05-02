@@ -1,2 +1,2 @@
-Test wite from ipad
+Test wite from ipad. ...bug on ipad
 

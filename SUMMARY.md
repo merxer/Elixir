@@ -4,4 +4,5 @@
 * [Basic types](basic-types.md)
 * [Basic Operators](basic-operators.md)
 * Pattern Matching
+* Case, cond and if
 

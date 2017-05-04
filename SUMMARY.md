@@ -5,4 +5,5 @@
 * [Basic Operators](basic-operators.md)
 * Pattern Matching
 * Case, cond and if
+* [Binaries, strings and lists](binaries-string-and-char-list.md)
 

@@ -9,4 +9,5 @@
 * Keywords and maps
 * Modules and Functions
 * Recursion
+* Enumerables and streams
 
